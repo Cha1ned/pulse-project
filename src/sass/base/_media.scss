@@ -1,0 +1,114 @@
+@media (max-width: 991px) {
+    .header {
+        &__official {
+            margin-right: 85px;
+        }
+    }
+    .promo {
+        min-height: 590px;
+        padding-bottom: 30px;
+        &__wrapper {
+            margin-top: 65px;
+        }
+        &__header {
+            margin: 0 auto;
+        }
+        &__subheader {
+            margin: 0 auto;
+            margin-top: 8px;
+        }
+        &__icons {
+            margin: 0 auto;
+            margin-top: 75px;
+        }
+        &__link {
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        .button {
+            &_main {
+                display: block;
+                margin: 0 auto;
+                margin-top: 70px;
+            }
+        }
+    }
+    .advantages {
+        min-height: 415px;
+        padding: 30px 0 30px 0;
+        &__item {
+            img {
+                margin-top: 45px;
+            }
+        }
+        &__subheader {
+            margin-top: 30px;
+        }
+    }
+    .consultation {
+        min-height: 630px;
+        padding: 40px 0 40px 0;
+        &__descr {
+            text-align: center;
+            margin-top: 60px;
+        }
+    }
+    .title{
+        &_left {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .carousel {
+        &__inner {
+            width: 630px;
+        }
+        img {
+            width: 570px;
+            margin: 0 auto;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            img {
+                width: 90%;
+            }
+        }
+    }
+    .promo {
+        padding: 21px 10px 30px 10px;
+    }
+    .advantages {
+        min-height: 400px;
+        &__subheader {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+    .title_left {
+        font-size: 32px;
+    }
+    .consultation {
+        min-height: 600px;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 470px;
+        }
+        img {
+            width: 400px;
+            margin: 0 auto;
+        }
+    }
+}
