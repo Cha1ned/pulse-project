@@ -1,6 +1,6 @@
 .promo {
     min-height: 650px;
-    padding: 21px 0 93px 0;
+    padding: 21px 15px 93px 15px;
     background: url(../img/bg/bg-main.jpg) center center/cover no-repeat;
     &__wrapper {
         display: flex;
@@ -26,7 +26,8 @@
         margin-top: 66px;
         width: 425px;
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     &__icon {
         width: 108px;
@@ -35,6 +36,8 @@
         font-size: 14px;
         font-weight: 500;
         img {
+            width: 45px;
+            height: 45px;
             display: block;
             margin: 0 auto;
             margin-bottom: 20px;
