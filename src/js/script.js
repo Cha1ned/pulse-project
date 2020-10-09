@@ -49,4 +49,10 @@ $(document).ready(function(){
 			$('.overlay, #order').fadeIn();
 		})
 	})
+
+	$('#consultation-form').validate();
+	$('#consultation form').validate({
+		
+	});
+	$('#order form').validate();
 });
